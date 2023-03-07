@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/searchwhite"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"
+
+        />
+
+
+    <item
+        android:title="Add New Donetor"
+        android:id="@+id/Addnew"
+        />
+
+    <item
+        android:title="Refresh"
+        android:id="@+id/refresh"
+        />
+
+    <item
+        android:title="logout"
+        android:id="@+id/logout"
+        />
+</menu>
